@@ -62,4 +62,13 @@ ts的编译选项主要是用来告诉ts编译器当前项目的编译需求，
     "experimentalDecorators": true,        // 启用装饰器
     "emitDecoratorMetadata": true          // 为装饰器提供元数据的支持
   }
-}```
+}
+```
+
+## noImplicitAny
+选项`noImplicitAny`用来告诉编译器，当无法推断一个变量时发出一个错误（或者只能推断为一个隐式的any类型），你可以：
+- 通过显示添加`:any`的类型注解，来让它成为一个`any`类型。
+- 通过一些更正确的类型注解来帮助TypeScript推断类型。
+
+## noImplicitThis
+选项`noImplicitThis`用来告诉
